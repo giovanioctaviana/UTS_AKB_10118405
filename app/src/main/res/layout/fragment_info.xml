@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment">
+
+    //10118405 Giovani Octaviana 7 Juni 2021 05.33
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This app was built on June 7, 2021
+                    --Giovani Octaviana--  IF-10 [10118405]"
+
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFFFFFCC"/>
+
+
+</FrameLayout>

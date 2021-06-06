@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="#FFFFFFCC">
+
+    //10118405 Giovani Octaviana 7 Juni 2021 05.33
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="267dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="200dp"
+        android:gravity="center"
+        android:text="10118405
+                                    Giovani Octaviana
+                                        IF-10
+                    Giovanioctaviana214@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
